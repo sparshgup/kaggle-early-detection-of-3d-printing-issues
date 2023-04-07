@@ -6,17 +6,9 @@ Kaggle: Early Detection of 3D Printing Issues
 
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Conv2D, MaxPooling2D
-from tensorflow.keras.layers import Dropout, Flatten, Reshape
-from tensorflow.keras.layers import Rescaling
-from tensorflow.keras.layers import BatchNormalization
-from tensorflow.keras.regularizers import l1, l2
-from sklearn.metrics import f1_score
 
 
 print("Loading Model")
