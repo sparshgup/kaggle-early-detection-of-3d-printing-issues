@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 
 
-
-
 # Function to Load Data
 
 def load_data(filename, data, loop_begin, loop_end):
